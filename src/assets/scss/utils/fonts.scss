@@ -1,0 +1,40 @@
+/* Fonts: */
+@font-face {
+  font-family: 'Excalibur-Monospace';
+  font-display: swap;
+  src: /* Pretty Modern Browsers */ url('../fonts/Excalibur-Monospace/excalib.ttf')
+    format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Ventura-Bold';
+  font-display: swap;
+  src: /* Pretty Modern Browsers */ url('../fonts/Ventura-Bold/Ventura-Bold.ttf')
+    format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  font-display: swap;
+  src: url('../fonts/ProximaNova/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ProximaNova/ProximaNova-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/ProximaNova/ProximaNova-Regular.woff')
+      format('woff'),
+    /* Pretty Modern Browsers */
+      url('../fonts/ProximaNova/ProximaNova-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  //  url('/assets/fonts/HelveticaNeueCyr/Black/HelveticaNeueCyr-Black.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  font-display: swap;
+  src: url('../fonts/ProximaNova/ProximaNova-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/ProximaNova/ProximaNova-Bold.woff')
+      format('woff'),
+    /* Pretty Modern Browsers */
+      url('../fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+  //  url('/assets/fonts/HelveticaNeueCyr/Black/HelveticaNeueCyr-Black.svg') format('svg'); /* Legacy iOS */
+}

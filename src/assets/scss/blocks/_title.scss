@@ -1,0 +1,22 @@
+.title {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 400;
+  color: $secondary-color;
+  font-family: $mainTitleFont;
+  &_promo {
+    // max-width: 624px;
+    font-size: 64px;
+    line-height: 80px;
+  }
+  &_section {
+    font-size: 36px;
+    line-height: 46.8px;
+    text-align: center;
+    display: block;
+    padding-top: 64px;
+  }
+  &_center {
+    text-align: center;
+  }
+}
