@@ -1,9 +1,12 @@
 .promo {
   min-height: 780px;
   &__wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
   }
   &__content {
+    max-width: 624px;
     margin-top: 154px;
   }
   &__subtitle {
@@ -13,12 +16,34 @@
     color: $gray-color;
   }
   &__img {
+    margin-top: 100px;
     display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
   }
   &__btns-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
     margin-top: 40px;
+  }
+  .mouse-down {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    p {
+      margin-top: 8px;
+      color: $gray-color;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+    }
   }
 }
