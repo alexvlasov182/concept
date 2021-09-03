@@ -1,5 +1,6 @@
 .promo {
   min-height: 780px;
+  padding: 0;
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,13 +38,47 @@
     img {
       display: block;
       margin: 0 auto;
+      animation: sdb10 2s infinite;
     }
     p {
-      margin-top: 8px;
+      margin-top: 24px;
       color: $gray-color;
       font-size: 14px;
       line-height: 17px;
       text-align: center;
     }
+  }
+}
+
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }

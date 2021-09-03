@@ -10,7 +10,12 @@
   user-select: none;
   cursor: pointer;
   transition: transform 200ms ease 0s, background 200ms ease 0s;
-
+  &_secondary {
+    width: 100%;
+    background: $secondary-color;
+    padding: 12px 132px;
+    font-family: $secondFont;
+  }
   &:hover {
     transform: translateY(-2px);
     text-decoration: none;

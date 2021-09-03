@@ -1,0 +1,117 @@
+.kickstart {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-family: $secondFont;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+  &__avatar-card {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+  }
+  &__avatar-img {
+    margin-right: 16px;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  &__avatar-content {
+    h4 {
+      font-family: $secondFont;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 26px;
+    }
+    span {
+      display: block;
+      color: $gray-color;
+      font-size: 16px;
+      line-height: 26px;
+      font-family: $secondFont;
+    }
+  }
+  &__block-title,
+  &__block-subtitle {
+    margin-top: 24px;
+  }
+  &__block-avatar {
+    position: relative;
+    max-width: 484px;
+    min-height: 400px;
+    background: $default-color;
+    border-radius: 16px;
+    border: 4px solid $secondary-color;
+    padding: 32px 40px;
+    z-index: 2;
+
+    -webkit-box-shadow: 15px 15px 0px 5px rgb(113, 168, 148);
+    -moz-box-shadow: 15px 15px 0px 5px rgb(113, 168, 148);
+    box-shadow: 15px 15px 0px 5px rgb(113, 168, 148);
+  }
+  &__message {
+    margin-top: 24px;
+    p {
+      font-family: $secondFont;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+  }
+  &__btns {
+    margin-top: 32px;
+  }
+  &__commit {
+    margin-top: 24px;
+    display: flex;
+  }
+  &__commit-block {
+    margin-right: 74px;
+  }
+  &__share-block,
+  &__commit-block {
+    span {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 700;
+      display: block;
+      margin-top: 12px;
+      font-family: $secondFont;
+    }
+    p {
+      color: $gray-color;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: $secondFont;
+    }
+  }
+  .box-shadow {
+    box-shadow: none;
+  }
+  .no-top {
+    margin-top: 0;
+  }
+  .side-right {
+    padding: 32px 40px;
+  }
+  .grid-img {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      background: url('../img/grid-img.png') no-repeat;
+      width: 298px;
+      height: 295px;
+      left: -8%;
+      bottom: -10%;
+    }
+  }
+}
