@@ -16,6 +16,27 @@
     padding: 12px 132px;
     font-family: $secondFont;
   }
+  &_green {
+    border-radius: 40px;
+    padding: 4px 8px;
+    background-color: $primary-color;
+    color: $default-color;
+    font-family: $secondFont;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &_balck-btn {
+    display: block;
+    margin: 0;
+    max-width: 192px;
+    min-height: 44px;
+    padding: 12px 40px;
+    background-color: $secondary-color;
+    border-radius: 16px;
+    font-family: $secondFont;
+    font-size: 14px;
+    line-height: 20px;
+  }
   &:hover {
     transform: translateY(-2px);
     text-decoration: none;
