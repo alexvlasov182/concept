@@ -1,0 +1,42 @@
+.footer {
+  margin-top: 120px;
+  position: relative;
+  min-height: 120px;
+  padding: 0 56px 0 56px;
+  &__wrapper {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    a {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: $secondary-color;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      margin-right: 40px;
+      font-family: $secondFont;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      a {
+        color: #131314;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .primary-color {
+    color: $primary-color;
+    font-weight: 700;
+  }
+}
