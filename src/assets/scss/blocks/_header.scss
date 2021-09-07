@@ -32,21 +32,18 @@
   }
 }
 
-@media (max-width: $tableWidth) {
+@media (max-width: $desktopWidth) {
   .header {
-    min-height: 60px;
     &__list {
-      display: none;
-    }
-    &__btns {
       display: none;
     }
   }
 }
 
-@media (max-width: $phoneWidth) {
+@media (max-width: $tableWidth) {
   .header {
-    &__list {
+    min-height: 60px;
+    &__btns {
       display: none;
     }
   }
