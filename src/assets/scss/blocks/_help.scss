@@ -1,4 +1,12 @@
 .help {
+  .height {
+    height: 100%;
+    min-height: 240px;
+  }
+  .min-height {
+    height: 90%;
+    min-height: 214px;
+  }
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 427px);
@@ -6,7 +14,8 @@
     margin-top: 48px;
   }
   &__card {
-    height: 216px;
+    // height: 100%;
+    // min-height: 214px;
     max-width: 427px;
     background-color: $default-color;
     padding: 24px;
@@ -53,7 +62,36 @@
     margin-top: 64px;
     text-align: center;
   }
-  .height {
-    min-height: 240px;
+}
+
+@media (max-width: 1440px) {
+  .help {
+    .height {
+      height: 100%;
+      min-height: 180px;
+    }
+    .min-height {
+      height: 100%;
+      min-height: 180px;
+    }
+    &__wrapper {
+      grid-template-columns: 1fr;
+    }
+    &__card {
+      max-width: 100%;
+    }
+    .title {
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+}
+
+@media (max-width: $smTableWidth) {
+  .help {
+    .min-height {
+      height: 100%;
+      min-height: 180px;
+    }
   }
 }
