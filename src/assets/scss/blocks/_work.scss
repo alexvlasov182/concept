@@ -29,10 +29,12 @@
 
 /* ------------------Media query----------------------- */
 
-@media (max-width: $tableWidth) {
+@media (max-width: $smDesktopWidth) {
   .work {
     &__card-wrapper {
       grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
     }
     &__card {
       max-width: 100%;

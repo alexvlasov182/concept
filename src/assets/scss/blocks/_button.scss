@@ -12,9 +12,11 @@
   transition: transform 200ms ease 0s, background 200ms ease 0s;
   &_secondary {
     width: 100%;
+    max-width: 404px;
     background: $secondary-color;
-    padding: 12px 132px;
+    padding: 12px 60px;
     font-family: $secondFont;
+    text-align: center;
   }
   &_green {
     border-radius: 40px;
