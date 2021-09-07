@@ -26,3 +26,25 @@
     padding: 64px 24px;
   }
 }
+
+/* ------------------Media query----------------------- */
+
+@media (max-width: $tableWidth) {
+  .work {
+    &__card-wrapper {
+      grid-template-columns: 1fr;
+    }
+    &__card {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: $smTableWidth) {
+  .work {
+    .title {
+      font-size: 36px;
+      line-height: 43px;
+    }
+  }
+}
