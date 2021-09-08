@@ -41,13 +41,10 @@
         &:hover {
           position: relative;
           display: inline-block;
-
           outline: none;
-
           text-decoration: none;
-          // text-shadow: 0 0 1px rgba(255, 255, 255, 30%);
           &::after {
-            height: 5px;
+            height: 3px;
             opacity: 1;
             background-color: $secondary-color;
             -webkit-transform: translateY(0px);
@@ -67,6 +64,8 @@
     font-weight: 700;
   }
 }
+
+/* ------------------------Media query------------------------------- */
 
 @media (max-width: $desktopWidth) {
   .header {

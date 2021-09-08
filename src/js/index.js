@@ -1,5 +1,4 @@
 // Main js file
-
 const bodyScrollLock = require('body-scroll-lock')
 const disableBodyScroll = bodyScrollLock.disableBodyScroll
 const enableBodyScroll = bodyScrollLock.enableBodyScroll
@@ -26,6 +25,27 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
   // enable scroll
   enableBodyScroll(closeElem)
+  bodyScrollLock.clearAllBodyScrollLocks()
+  enableBodyScroll(idMenu)
+})
+
+// Scroll to section
+const scrollTo = element => {
+  window.scroll({
+    left: 0,
+    top: element.offsetTop,
+    behavior: 'smooth'
+  })
+}
+
+const down = document.querySelector('#down')
+
+// section to scroll
+const work = document.querySelector('.work')
+
+down.addEventListener('click', () => {
+  scrollTo(work)
+  menu.classList.remove('active')
   bodyScrollLock.clearAllBodyScrollLocks()
   enableBodyScroll(idMenu)
 })
