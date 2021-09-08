@@ -29,6 +29,9 @@
       line-height: 24px;
       a {
         color: #131314;
+        &:hover {
+          text-decoration: underline;
+        }
       }
       &:last-child {
         margin-right: 0;
