@@ -16,7 +16,7 @@
     padding: 0 20px;
   }
   &__avatar-card {
-    margin-top: 32px;
+    margin-top: 12px;
     display: flex;
     align-items: center;
   }
@@ -25,7 +25,19 @@
     img {
       display: block;
       width: 100%;
+      border-radius: 50%;
+      max-width: 120px;
     }
+  }
+  .go-img {
+    max-width: 50px;
+    border-radius: 0;
+  }
+  .c-img {
+    max-width: 50px;
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
   &__avatar-content {
     h4 {

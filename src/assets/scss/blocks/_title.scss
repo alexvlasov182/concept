@@ -2,9 +2,10 @@
 .title {
   font-size: 43px;
   line-height: 64px;
-  font-weight: 400;
+  font-weight: 500;
   color: $secondary-color;
-  font-family: $mainTitleFont;
+  // font-family: $mainTitleFont;
+  font-family: 'Quicksand', sans-serif;
   &_card {
     font-size: 24px;
     line-height: 32px;
@@ -14,6 +15,7 @@
   &_promo {
     font-size: 64px;
     line-height: 80px;
+    font-family: 'Quicksand', sans-serif;
   }
   &_width650 {
     max-width: 650px;
