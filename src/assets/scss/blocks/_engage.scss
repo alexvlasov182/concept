@@ -144,6 +144,14 @@
       line-height: 24px;
       color: $gray-color;
     }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      border-radius: 50%;
+      max-width: 80px;
+
+    }
   }
   &__star-rate {
     margin-top: 16px;
@@ -155,6 +163,8 @@
     margin-top: 16px;
   }
   &__commits {
+    display: block;
+    margin: 0 auto;
     font-family: $secondFont;
     font-style: normal;
     font-weight: normal;
