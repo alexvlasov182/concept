@@ -16,6 +16,7 @@
     line-height: 32px;
     color: $gray-color;
   }
+  
   &__img {
     margin-top: 100px;
     display: block;
@@ -48,6 +49,11 @@
       text-align: center;
     }
   }
+}
+
+#postman-img img {
+  max-width: 150px;
+  min-height: 50px;
 }
 
 @-webkit-keyframes sdb10 {

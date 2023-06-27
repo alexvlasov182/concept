@@ -17,6 +17,13 @@
     min-height: 500px;
   }
 
+  &__yotube-text {
+    color: #66645e;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   // Block top
   &__block-top {
     display: block;
@@ -196,7 +203,7 @@
 
   .go-img {
     max-width: 50px;
-    border-radius: 50%;
+    border-radius: 20%;
     margin-right: 0;
     margin-left: 0;
   }
