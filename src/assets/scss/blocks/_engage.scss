@@ -19,8 +19,9 @@
 
   &__yotube-text {
     color: #66645e;
+    text-decoration: underline;
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
@@ -178,6 +179,19 @@
     font-size: 16px;
     line-height: 24px;
     color: $secondary-color;
+  }
+
+  &__video {
+    color: #66645e;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__video-button {
+    color: #fff;
   }
   &__star-ux {
     font-family: $secondFont;
